@@ -30,8 +30,8 @@ BASE_URL = "https://www.info.pmda.go.jp/psearch/tenpulist.jsp"
 GAKKAI = "添付文書改訂"
 
 # ===== 抽出設定 =====
-# /html/body/table[5]/tbody の2個目のtr内にあるaタグをすべて対象
-SELECTOR_TITLE = "xpath=(/html/body/table[5]/tbody//a)[position() >= 2]"
+# /html/body/table[5]/tbody の2個目のtr以降にあるaタグをすべて対象
+SELECTOR_TITLE = "xpath=(/html/body/table[5]/tbody//a)[position() >= 1"
 
 # SELECTOR_TITLE自体がaタグなので、
 # タイトルはそのaタグ自身のテキストを取得
