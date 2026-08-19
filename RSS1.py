@@ -31,7 +31,7 @@ GAKKAI = "添付文書改訂"
 
 # ===== 抽出設定 =====
 # /html/body/table[5]/tbody の2個目のtr内にあるaタグをすべて対象
-SELECTOR_TITLE = "xpath=/html/body/table[5]/tbody/tr[2] a"
+SELECTOR_TITLE = "xpath=(/html/body/table[5]/tbody//a)[position() >= 2]"
 
 # SELECTOR_TITLE自体がaタグなので、
 # タイトルはそのaタグ自身のテキストを取得
