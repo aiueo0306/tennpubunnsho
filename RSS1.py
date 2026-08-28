@@ -26,7 +26,7 @@ from scraper_utils import extract_items
 from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
-BASE_URL = "https://www.info.pmda.go.jp/psearch/tenpulist.jsp"
+BASE_URL = "https://www.info.pmda.go.jp/psearch/tenpulist.jsp?DATE=20260825"
 GAKKAI = "添付文書改訂"
 
 # ===== 抽出設定 =====
