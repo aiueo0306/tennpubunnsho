@@ -155,6 +155,7 @@ with sync_playwright() as p:
         date_index,
         date_format,
         date_regex,
+        max_items=None,
     )
 
     if not items:
